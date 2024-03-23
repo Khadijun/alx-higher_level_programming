@@ -2,5 +2,5 @@
 
 ch = 'a'
 while ch <= 'z':
-    print(ch, end=' ')
+    print('{}'.format(ch), end=' ')
     ch = chr(ord(ch) + 1)
