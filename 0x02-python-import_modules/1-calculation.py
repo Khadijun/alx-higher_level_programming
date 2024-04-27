@@ -4,12 +4,7 @@ if __name__ == '__main__':
     a = 10
     b = 5
 
-    add(a, b)
-    sub(a, b)
-    mul(a, b)
-    div(a, b)
-
-    print('{} + {} = {}'.format(10, 5, add(a, b)))
-    print('{} - {} = {}'.format(10, 5, sub(a, b)))
-    print('{} * {} = {}'.format(10, 5, mul(a, b)))
-    print('{} / {} = {}'.format(10, 5, div(a, b)))
+    print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
+    print('{:d} - {:d} = {:d}'.format(a, b, sub(a, b)))
+    print('{:d} * {:d} = {:d}'.format(a, b, mul(a, b)))
+    print('{:d} / {:d} = {:d}'.format(a, b, div(a, b)))
