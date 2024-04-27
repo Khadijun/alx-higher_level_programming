@@ -5,6 +5,6 @@ if __name__ == '__main__':
         print('{:d} {}.'.format(0, 'arguments'))
     else:
         print('{:d} {}:'.format(len(sys.argv) - 1, 'arguments'))
-    for i in range(len(sys.argv) -1):
+    for i in range(len(sys.argv) - 1):
         arg = sys.argv[i + 1]
         print('{:d}: {}'.format(i + 1, arg))
